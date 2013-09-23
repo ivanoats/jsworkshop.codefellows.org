@@ -6,7 +6,7 @@ var server = http.createServer(function(request, response) {
   response.writeHead(200);
   response.write('<!DOCTYPE html><html>        \
     <head>                                     \
-    <script src="jQuery"></script>             \
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>             \
     </head>                                    \
     <body>                                     \
       <h1>Hello World!</h1>                     \
