@@ -4,15 +4,16 @@ console.log("Creating Server");
 
 var server = http.createServer(function(request, response) {
   response.writeHead(200);
-  response.write('<!DOCTYPE html><html>        \
-    <head>                                     \
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>             \
-    </head>                                    \
-    <body>                                     \
-      <h1>Hello World!</h1>                     \
-      <p>I am excited to be here with you.</p> \
-    </body>                                    \
-    </html>');
+  response.write('<!DOCTYPE html>\n\
+    <html>\n\
+      <head>\n\
+      <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>\n\
+      </head>\n\
+      <body>\n\
+        <h1>Hello World!</h1>\n\
+        <p>I am excited to be here with you.</p>\n\
+      </body>\n\
+      </html>');
   response.end();
 });
 
