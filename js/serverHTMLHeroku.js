@@ -12,6 +12,7 @@ var server = http.createServer(function(request, response) {
       <body>\n\
         <h1>Hello World!</h1>\n\
         <p>I am excited to be here with you.</p>\n\
+        <div id="image-placeholder"></div>\n\
       </body>\n\
       </html>');
   response.end();
